@@ -32,6 +32,10 @@ a {
     transition: opacity 300ms ease;
 }
 
+.no-curser {
+    cursor: not-allowed;
+}
+
 i:hover {
     opacity: 0.7;
 }
@@ -188,8 +192,8 @@ nav {
 
     /* Improving my own picture */
     transform: scale(1.5);
-    padding-top: 20px;
-    padding-left: 8px;
+    padding-top: 28px;
+    padding-left: 3px;
 }
 
 .about-me__info--title {
@@ -232,6 +236,7 @@ nav {
 
 .about-me__img {
     width: 100%;
+    padding-top: 8px;
     animation: fade-in 1200ms 800ms backwards;
 }
 
@@ -422,6 +427,7 @@ footer {
 .footer__logo--img {
     width: 70px;
     height: 70px;
+    filter: invert(1);
 }
 
 .footer__social--link,
